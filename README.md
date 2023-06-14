@@ -1,7 +1,12 @@
 # Clinicaltrials.gov Natural Language Processing: 
 
+## Author Information
+Kathryn Meldrum 
+
+Contact: kmm4ap@virginia.edu
+
 ## About the Project
-This repository contains relevant code and data for the Clinicaltrials.gov Natural Language Processing Capstone project by the University of Virginia School of Data Science, sponsored by AllenAI. 
+This repository contains relevant code and data for extracting and applying a spacy NER to eligibility criteria from Clinicaltrials.gov. All work presented was originally done in conjunction with the UVA School of Data Science, sponsored by AllenAI. 
 
 ## File Descriptions: 
 
@@ -49,20 +54,9 @@ python -m spacy init fill-config base_config.cfg config.cfg
 python -m spacy train config.cfg --output ./ --paths.train ./training_data.spacy --paths.dev ./dev_data.spacy 
 ```
 
-**streamlit_files**
-
-*api_pull_data_small.csv*: sample of dataframe to demo search within each NCT file, 10000 trials
-
-*entities.csv*: table of entities and their descrtiptions
-
-*ents_spans_small.csv*: sample of dataframe containing all spans marked with each entity label from 10000 trials
-
 **additional files:** 
 https://virginia.box.com/s/4ezc8cerqqon4l63aa52yvrq0wu35k2k
 
 *results.csv*: contains dataframe with NCT ID and results of Chia-based NER model for all models availible on clinicaltrials.gov as of 05/19/23
-*ents_spans.csv*: contains the spans possible to search within for each entity, for the streamlit app 
+*ents_spans.csv*: contains the spans possible to search within for each entity
 
-## Running the Streamlit application
-1. Change existing paths
-2. Run app.py
