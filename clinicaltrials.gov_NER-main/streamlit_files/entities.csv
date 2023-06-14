@@ -1,0 +1,19 @@
+Entities, Description
+Person, Patient reference or demographic info
+Condition, Disease/condition
+Drug, Drug/medicine
+Observation, Observations about the patient
+Measurement, Lab values/hard measurements 
+Procedure, Surgery or medical procedure
+Device, Medical device such as pacemaker
+Visit, Hospital stay or medical appointment
+Negation, Indicates negative (not)
+Qualifier, Severity/magnitude 
+Temporal, Having to do with timeline of patient
+Value, Numerical value of measurement
+Multiplier, Indicates recurrence of condition
+Reference_point, Reference to other entities in the text
+Mood, Marks intention to do something
+Post_eligibility, Any required follow-ups to trial
+Pregnancy_considerations, Pregnancy considerations
+Informed_consent, Level/nature of consent
